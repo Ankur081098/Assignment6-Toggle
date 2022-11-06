@@ -23,7 +23,7 @@ function App() {
   };
 
   function toggleButton() {
-    if (buttonText == "Light Mode") {
+    if (buttonText === "Light Mode") {
       setButtonText("Dark Mode");
       setColor("black")
       console.log(buttonText)
